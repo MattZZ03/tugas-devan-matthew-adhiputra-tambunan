@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Document</title>
+        <link rel="stylesheet" href="form.css">
+    </head>
+
+    <body>
+        <h1 style="text-align: center;">Tugas 2 Pemrograman Web</h1>
+        <h2 style="text-align: center;">Registrasi Akun</h2>
+        
+        <div style="text-align: center;">
+            <table border="1" style="margin: 0 auto;">
+                <td>
+                    <form>
+
+                    <h3>Nama Lengkap</h3>
+                    <input class="isi" type="text" placeholder="Nama Lengkap" required> <br>
+
+                    <h3>Password</h3>
+                    <input class="isi" type="password" placeholder="Password" required> <br>
+
+                    <h3>Jenis Kelamin</h3>
+                    <input type="radio" value="Laki-laki" name="kelamin" required> ♂️ Laki-laki
+                    <input type="radio" value="Perempuan" name="kelamin" required> ♀️Perempuan <br>
+
+                    <h3>Hobi</h3>
+                    <input type="checkbox" value="Membaca" name="hobi"> Membaca
+                    <input type="checkbox" value="Olahraga" name="hobi"> Olahraga
+                    <input type="checkbox" value="Bermain Game" name="hobi"> Bermain Game <br>
+                    
+                    <label>Pilih Kom:</label> <br>
+                    <select name="kom" id="kom">
+                        <option value="a">Kom A</option>
+                        <option value="b">Kom B</option>
+                        <option value="c">Kom C</option>
+                    </select> <br> <br>
+
+                    <label for="pesan">Pesan:</label> <br>
+                    <textarea class="curhat" id="pesan" name="pesan" rows="2" cols="50" placeholder="Kritik/Saran ataupun Pesan-pesan"></textarea> <br>
+
+                    <button class="action" type="submit">Submit</button>
+                    <button class="action" type="reset">Reset</button>
+
+                    </form>
+        
+                </td>
+            </table>
+        </div>
+
+    </body>
+</html>

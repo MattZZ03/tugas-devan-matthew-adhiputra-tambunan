@@ -1,0 +1,163 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tugas HTML</title>
+    <img src="https://media.licdn.com/dms/image/v2/D4E03AQEBfwlxWBw81g/profile-displayphoto-scale_400_400/B4EZ61pwRTKsAk-/0/1781164083044?e=1789603200&v=beta&t=HTw4hKO6kiVngpsqo7ouZDAQr8Sf5R49Wc1XAp2Iajg" alt="Devan Matthew Adhiputra Tambunan">
+    <h1 class="title">Tugas HTML 1</h1>
+    <h2 class="title">By : Devan Matthew Adhiputra Tambunan</h2>
+    <h3 class="title">NIM : 261402057</h3>
+    <hr>
+
+
+    <style>
+        *, html, body{
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #000000;
+        }
+
+        img{
+            position: fixed;
+            display: flex;
+            justify-content: flex-end;
+            width: 10%;
+            height: 10%;
+            border-radius: 50%;
+        }
+
+        .title{
+            text-align: center;
+            color: white;
+        }
+
+        .contact a{
+            color: rgb(0, 221, 250);
+        }
+
+        .contact a:hover{
+            color: rgb(172, 245, 255);
+        }
+
+        .contact-list{
+            display: flex;
+            flex-direction: row;
+            align-items: center;
+            margin-top: 20px;
+            margin-bottom: 20px;
+        }
+
+        .sidebar {
+            display: flex;
+            flex-direction: column;
+            list-style-type: none;
+            align-items: center;
+            margin: 0;
+            padding: 0;
+            overflow: hidden;
+        }
+
+        .name{
+            text-align: center;
+        }
+
+        .judul-materi{
+            color: rgb(248, 249, 249);
+        }
+
+        p{
+            color:aliceblue;
+        }
+
+        a{
+            color:rgb(235, 235, 170);
+            text-decoration: none;
+            text-decoration-thickness: 5px;
+        }
+
+        a:hover{
+            color:rgb(163, 163, 77);
+        }
+
+        footer {
+            display: flex;
+            justify-content: center;   /* center horizontally */
+            align-items: center;     /* center vertically if needed */
+            text-align: center;
+            padding: 20px;
+        }
+
+        .instagram, .tiktok, .github, .linkedin{
+            display: center;
+            text-decoration: none;
+            margin-right: 10px;
+        }
+        
+    </style>
+
+
+</head>
+
+<body>
+    
+    <table width="100%" border="1">
+        <tr>
+            <td colspan="2" style="color: white; text-align: center;">Devan Matthew Adhiputra Tambunan</td>
+        </tr>
+
+        <tr>
+            <td width="15%">
+                <ul class="sidebar">
+                    <p>Daftar Isi</p> <br>
+                    <li><a href="#apa-itu-pemrograman-web">Apa Itu Pemrograman Web?</a></li> <br>
+                    <li><a href="#bahasa-yang-digunakan">Bahasa yang Digunakan</a></li> <br>
+                    <li><a href="#tools-yang-digunakan">Tools yang digunakan</a></li> <br>
+                    <li><a href="#hasil-akhir-yang-akan-didapat">Hasil Akhir yang Akan Didapat</a></li> <br>
+                    <li><a href="#kesimpulan">Kesimpulan</a></li> <br>
+                    <li><a href="#contact">Contact</a></li> <br>
+                </ul>
+            </td>
+
+            <td>
+                <h1 id="apa-itu-pemrograman-web" class="judul-materi">Apa Itu Pemrograman Web?</h1>
+                <br>
+                <p>Pemrograman web adalah proses pembuatan aplikasi atau situs web yang dapat diakses melalui internet. Pemrograman web melibatkan penggunaan berbagai teknologi dan bahasa pemrograman untuk mengembangkan fungsi dan tampilan dari sebuah situs web.</p>
+                <hr>
+
+                <h1 id="bahasa-yang-digunakan" class="judul-materi">Bahasa yang Digunakan</h1>
+                <br>
+                <p>Bahasa yang dapat digunakan dalam pemrograman web antara lain <a href="https://www.w3schools.com/html/default.asp">HTML</a>, <a href="https://www.w3schools.com/css/default.asp">CSS</a>, <a href="https://www.w3schools.com/js/default.asp">JavaScript</a>, <a href="https://www.w3schools.com/php/default.asp">PHP</a>, dan lain-lain.</p>
+                <hr>
+
+                <h1 id="tools-yang-digunakan" class="judul-materi">Tools yang Digunakan</h1>
+                <br>
+                <p>Tools yang digunakan dalam pemrograman web antara lain <a href="https://code.visualstudio.com/">Visual Studio Code</a>, <a href="https://www.github.com/">GitHub</a>, dan Hosting</p>
+                <hr>
+
+                <h1 id="hasil-akhir-yang-akan-didapat" class="judul-materi">Hasil Akhir yang Akan Didapat</h1>
+                <br>
+                <p>Hasil akhir yang akan didapat dari pemrograman web ini adalah sebuah website yang bisa dikases siapa saja melalui internet dengan domain yang spesifik.</p>
+                <hr>
+
+                <h1 id="kesimpulan" class="judul-materi">Kesimpulan</h1>
+                <br>
+                <p>Pemrograman web adalah proses pembuatan, pembangunan, dan pemeliharaan situs web atau aplikasi yang berjalan melalui internet atau intranet. Bahasa pemrograman yang dapat digunakan dalam pemrograman web antara lain HTML, CSS, JavaScript, PHP, dan lain-lain. Tools yang digunakan dalam pemrograman web antara lain Visual Studio Code, GitHub, dan Hosting. Hasil akhir yang akan didapat dari pemrograman web ini adalah sebuah website yang bisa dikases siapa saja melalui internet dengan domain yang spesifik.</p>
+                <hr>
+            </td>
+    </table>
+</body>
+
+<footer class="contact" id="contact">
+
+    <div class="contact-list">
+        <a class="instagram" href="https://www.instagram.com/matt.berotaksenku/" target="_blank" class="instagram">Instagram</a>
+        <a class="tiktok" href="https://www.tiktok.com/@matt.berotaksenku" target="_blank" class="tiktok">Tiktok</a>
+        <a class="github" href="https://github.com/MattZZ03" target="_blank" class="github">Github</a>
+        <a class="linkedin" href="https://www.linkedin.com/in/devanmatthew/" target="_blank" class="linkedin">LinkedIn</a>
+    </div>
+
+</footer>
+
+</html>

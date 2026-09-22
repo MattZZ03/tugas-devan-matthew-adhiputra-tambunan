@@ -1,0 +1,23 @@
+body{
+    background-color: cadetblue;
+}
+
+table{
+    background-color: cornflowerblue;
+}
+
+.isi{
+    padding: 5px 7px;
+    border-radius: 30px;
+
+}
+
+.action{
+    border-radius: 20px;
+}
+
+.curhat{
+    border-radius: 20px;
+    padding: 5px 7px;
+    margin-bottom: 10px;
+}
